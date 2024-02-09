@@ -3,12 +3,17 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    margin-right: 0px;
+    background-color: #FFF;
+    padding-right: 0px;
   }
   
   li {
-    float: left;
+    float: right;
+    
+  }
+  .title{
+    float:left;
+    font-size: larger;
   }
   
   li a {
@@ -17,8 +22,13 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color:black
   }
   li a:hover {
-    background-color: #111;
+    color: #1DBF73;
+  }
+  .jobbutton{
+    background-color: #1DBF73;
+    color:#FFF;
   }
   
