@@ -2,7 +2,7 @@
   position:relative;
   top:0;
 }
-ul {
+.navv {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ ul {
     padding-right: 0px;
   }
   
-  li {
+  nav li {
     float: right;
     
   }
@@ -62,4 +62,33 @@ ul {
     height: 70px;
     margin-left: 20px;
     font-size: larger;
+  }
+  .tick{
+    list-style: none;
+    
+  }
+  .tick li:before{
+    content:'✓';
+    
+  }
+  ul ,li{
+    margin:0;
+    padding: 0;
+  }
+  .join{
+    width: 400px;
+    left:0%;
+  }
+  .joblist{
+    display: flex;
+    flex-direction: column;
+  }
+  .joboption{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr 1fr;
+    column-gap: 5px;
+  }
+  .clientopinion{
+    display: grid;
   }
