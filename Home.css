@@ -83,6 +83,42 @@
     left:10%;
     
   }
+  .join button{
+    background-color: #1DBF73;
+    height: 50px;width: 150px;
+    border-radius: 3px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 35px;
+
+  }
+  .browse{
+    background-color: #1DBF73;
+    height: 50px;width: 200px;
+    border-radius: 3px;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .heart{
+    width: 30px;height: 30px;
+    background-color:#effdf5 ;
+    
+  }
+  .apply{
+    background-color: #1DBF73;
+    height: 40px;width: 100px;
+    border-radius: 3px;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
   .best{
     padding-left:100px;
     padding-right:100px;
@@ -96,6 +132,13 @@
     align-items: center;
     grid-template-columns: 1fr 5fr 1fr;
     column-gap: 5px;
+    height: 100px;
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    margin-right:30px;
+    margin-left:30px;
+    margin-bottom: 20px;
   }
   .clientopinion{
     display: grid;
@@ -147,7 +190,7 @@
   height: 40px;
   width: 200px;
   border: none;
-  margin:30px;
+  margin:20px;
   border-radius: 2px;
   padding-left: 10px;
   background-color: #063928;
