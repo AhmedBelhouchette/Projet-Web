@@ -207,3 +207,39 @@
 body{
   background-color: #effdf5;
 }
+.clientopinion{
+  width:420px;
+  border-radius: 3px;
+  padding-left: 30px;
+  /*display: flex;*/
+  /*overflow: hidden;*/
+  cursor: pointer;
+  background-color:#effdf5;
+  color: white;
+}
+.sliderclient{
+  display: grid;
+  grid-auto-flow: column;
+  overflow: hidden;
+  gap: 10px;
+  margin: 10px;
+}
+.clientopinion h4{ 
+  font-weight: 900;
+  color: black;
+  
+}
+.clientopinion p{
+  color: gray;
+}
+.clientopinion img{
+  width: 50px;
+  margin-right: 10px;
+}
+.sliderclient .dragging .clientopinion{
+  cursor: grab;
+  user-select: none;
+}
+.unselectable{
+  user-select: none;
+}
