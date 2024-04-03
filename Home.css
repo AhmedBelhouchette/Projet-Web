@@ -245,6 +245,25 @@ body{
   user-select: none;
 }
 
+.zouz{
+  display: grid;
+  grid-template-columns: 70% 30%;}
+
+.bref{
+  /* width: 50%; */
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.ka3ba{
+  padding: 30px;
+}
+.thanya{
+  background-color: #effdf5;
+  margin-top: 30px;
+  padding: 40px;
+}
+
 /*footer*/
 a{
   text-decoration: none;
