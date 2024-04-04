@@ -107,6 +107,9 @@
   .heart{
     width: 30px;height: 30px;
     background-color:#effdf5 ;
+    border: 0px;padding-left: 3px;
+    cursor: pointer;
+
     
   }
   .apply{
@@ -118,6 +121,7 @@
     font-weight: bolder;
     margin-top: 20px;
     margin-left: 35px;
+  cursor: pointer;
   }
   .best{
     padding-left:100px;
@@ -142,25 +146,38 @@
   }
   .clientopinion{
     display: grid;
+    transition-delay: 0s;
   }
+  .clientopinion:hover{
+    background-color: #1DBF73;
+    color:white;
+  transition-delay: 50ms;  }
 .ccontainer{
   margin-left: 200px;
-  width:600px;
+  width:1000px;
   display:grid;
-  grid-template-rows: 250px 250px;
+  grid-template-rows: 200px 200px;
   grid-template-columns: 250px 250px 250px 250px;
-  gap: 10px;
+  gap: 20px;
 }
 .categ {
-  
-  background-color: #a4cd89;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: bolder;
-  color: #fff;
+  justify-content: left;
+  
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  gap: 20px;
+  height: 160px;
+  width: 240px;
+}
+.mincateg{
+  padding-left: 20px;
 }
 .categ:hover{
   background-color: #ccc;
@@ -230,7 +247,7 @@ body{
   color: black;
   
 }
-.clientopinion p{
+.clientopinion {
   color: gray;
 }
 .clientopinion img{
@@ -253,7 +270,8 @@ body{
   /* width: 50%; */
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 15% 85%;
+  width: 500px;
 }
 .ka3ba{
   padding: 30px;
@@ -263,7 +281,27 @@ body{
   margin-top: 30px;
   padding: 40px;
 }
-
+.fill{
+  width:40%;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin: 10px;
+}
+.det{
+  display: flex;
+  justify-content: space-between;
+  color:gray;
+  width: 500px;
+}
+.ft img{
+  margin-right: 5px;
+}
+.ft{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /*footer*/
 a{
   text-decoration: none;
