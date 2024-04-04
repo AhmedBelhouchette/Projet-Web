@@ -41,7 +41,8 @@
     top:200px;
     left: 70px;
     color: #fff; 
-    width:60%
+    width:60%;
+    padding-left: 70px;
   }
   h1{
     font-size: 5em;
@@ -53,6 +54,7 @@
     width: 250px;
     height: 70px;
     font-size: larger;
+    border-radius: 3px;
   }
   .FT{
     border:0px;
@@ -62,6 +64,8 @@
     height: 70px;
     margin-left: 20px;
     font-size: larger;
+    border-radius: 3px;
+
   }
   .tick{
     list-style: none;
