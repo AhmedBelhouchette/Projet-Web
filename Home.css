@@ -337,3 +337,106 @@ a{
   border:2px solid;
   border-radius: 25%;
 }
+form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  color: #333;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.divise {
+  position: relative;
+   display: flex ;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: stretch;
+  }
+  .det{
+    display: flex ;
+   flex-direction: row;
+   justify-content: space-around;
+  }
+  .contdetails{
+    height:50px;
+    width: 400px;
+    background-color:#effdf5;
+    border-radius: 2px;
+    margin:40px;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .contdetails img{
+    margin-right: 20px;
+  }
+  .contdetails:hover {
+    background-color:#1DBF73 ;
+
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .A{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .filmin{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid grey;
+    width: 300px;
+    height: auto;
+    
+    align-items: center;
+    
+  }
+  .tafsil{
+    display: flex;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  .user{
+    height: 20px;
+  }
+  .namegras{
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 0;
+  }
