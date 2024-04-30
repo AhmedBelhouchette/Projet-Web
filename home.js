@@ -24,3 +24,5 @@ const autoplay = () => {
 carousel.addEventListener("mousemove",dragging);
 carousel.addEventListener("mousedown",dragstart);
 document.addEventListener("mouseup",dragstop);
+
+l
