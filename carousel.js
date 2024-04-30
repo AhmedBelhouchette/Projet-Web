@@ -1,22 +1,26 @@
-// https://colorlib.com/preview/theme/seogo/
+const carousel = document.querySelector('.carousel');
+const slides = carousel.querySelectorAll('.slide');
+const prev = carousel.querySelector('.prev');
+const next = carousel.querySelector('.next');
 
-const buttonsWrapper = document.querySelector(".map");
-const slides = document.querySelector(".inner");
+let currentSlide = 0;
 
-buttonsWrapper.addEventListener("click", e => {
-  if (e.target.nodeName === "BUTTON") {
-    Array.from(buttonsWrapper.children).forEach(item =>
-      item.classList.remove("active")
-    );
-    if (e.target.classList.contains("first")) {
-      slides.style.transform = "translateX(-0%)";
-      e.target.classList.add("active");
-    } else if (e.target.classList.contains("second")) {
-      slides.style.transform = "translateX(-33.33333333333333%)";
-      e.target.classList.add("active");
-    } else if (e.target.classList.contains('third')){
-      slides.style.transform = 'translatex(-66.6666666667%)';
-      e.target.classList.add('active');
-    }
-  }
-});
+function showSlide(n) {
+  slides.forEach((slide, i) => {
+    slide.style.opacity = i === n ? 1 : 0;
+  });
+  currentSlide = n;
+}
+
+function nextSlide() {
+  showSlide((currentSlide + 1) % slides.length);
+}
+
+function prevSlide() {
+  showSlide(currentSlide === 0 ? slides.length - 1 : currentSlide - 1);
+}
+
+showSlide(currentSlide);
+
+prev.addEventListener('click', prevSlide);
+next.addEventListener('click', nextSlide);
