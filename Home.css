@@ -599,12 +599,10 @@ input[type="submit"]:hover {
     width:80%;
     
   }
-  .numbers{
-    display: grid;
-    grid-template-columns: 40% 60%;   
-    padding-right: 20px;
-  }
+
   .atlaa{
+    margin-left: 10%;
+    margin-right: 0%;
     display:grid;
     grid-template-columns: 40% 40%;
     grid-template-rows:auto auto ;
@@ -615,7 +613,12 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 10px solid #18f98f;
+    border-radius: 0.5em;
+    
+
   }
   .rakm img{
-    width: 50px;
+    width: 200px;
+    
   }
