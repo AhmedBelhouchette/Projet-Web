@@ -1,0 +1,57 @@
+body {
+    background-color: #e0f1fa;
+  }
+  .image-container {
+    width: 400px;
+    position: absolute;
+    top: 140em;
+    right: 20em;
+  }
+  .image {
+    border-radius: 2em;
+    width: 100%;
+    height: 100%;
+    border: 15px solid white;
+    cursor: pointer;
+  }
+  .image-container:first-child {
+    transform: rotate(23deg);
+  }
+  .image-container:nth-child(2) {
+    transform: rotate(328deg);
+  }
+  .image-container:nth-child(3) {
+    transform: rotate(169deg);
+  }
+  h2{
+    text-align: center;
+  }
+  
+  .ceo-box {
+  
+    width: 500px;
+    height: 700px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+    
+}
+.ceo{
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ceo-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+.ceo-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
